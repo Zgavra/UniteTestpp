@@ -1,0 +1,399 @@
+# depslib dependency file v1.0
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\assertexception.cpp
+	"AssertException.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\config.h
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\helpermacros.h
+	"Config.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\checks.cpp
+	"Checks.h"
+	<cstring>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testresults.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\currenttest.cpp
+	"CurrentTest.h"
+	<cstddef>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\currenttest.h
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\deferredtestreporter.cpp
+	"Config.h"
+	"DeferredTestReporter.h"
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\deferredtestreporter.h
+	"Config.h"
+	"TestReporter.h"
+	"DeferredTestResult.h"
+	<vector>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testreporter.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\deferredtestresult.h
+	"Config.h"
+	"HelperMacros.h"
+	<string>
+	<vector>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testdetails.h
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\deferredtestresult.cpp
+	"Config.h"
+	"DeferredTestResult.h"
+	<cstring>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\memoryoutstream.cpp
+	"MemoryOutStream.h"
+	<cstring>
+	<cstdio>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\test.cpp
+	"Config.h"
+	"Test.h"
+	"TestList.h"
+	"TestResults.h"
+	"AssertException.h"
+	"MemoryOutStream.h"
+	"ExecuteTest.h"
+	"Posix/SignalTranslator.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\test.h
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testlist.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\exceptionmacros.h
+	"Config.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testdetails.cpp
+	"TestDetails.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testlist.cpp
+	"TestList.h"
+	"Test.h"
+	<cassert>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testreporter.cpp
+	"TestReporter.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testreporterstdout.cpp
+	"TestReporterStdout.h"
+	<cstdio>
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testreporterstdout.h
+	"TestReporter.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testresults.cpp
+	"TestResults.h"
+	"TestReporter.h"
+	"TestDetails.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\testrunner.cpp
+	"TestRunner.h"
+	"TestResults.h"
+	"TestReporter.h"
+	"TestReporterStdout.h"
+	"TimeHelpers.h"
+	"MemoryOutStream.h"
+	<cstring>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\posix\timehelpers.h
+	<sys/time.h>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\timeconstraint.cpp
+	"TimeConstraint.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"CurrentTest.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\win32\timehelpers.cpp
+	"TimeHelpers.h"
+	<windows.h>
+
+1429950622 source:e:\githubcoloseum\unittest-cpp-master\unittest++\xmltestreporter.cpp
+	"Config.h"
+	"XmlTestReporter.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\xmltestreporter.h
+	"Config.h"
+	"DeferredTestReporter.h"
+	<iosfwd>
+
+1431982092 source:e:\githubcoloseum\unittest-cpp-master\unittest++\reportassert.cpp
+	"ReportAssert.h"
+	"ReportAssertImpl.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"TestResults.h"
+	"TestDetails.h"
+	"ReportAssert.h"
+	"ReportAssertImpl.h"
+
+1429950622 e:\githubcoloseum\unittest-cpp-master\unittest++\reportassert.h
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\assertexception.cpp
+	"AssertException.h"
+
+1429950622 e:\githubcoloseum\unittest++\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1429950622 e:\githubcoloseum\unittest++\config.h
+
+1429950622 e:\githubcoloseum\unittest++\helpermacros.h
+	"Config.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\checks.cpp
+	"Checks.h"
+	<cstring>
+
+1429950622 e:\githubcoloseum\unittest++\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1429950622 e:\githubcoloseum\unittest++\testresults.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest++\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1429950622 source:e:\githubcoloseum\unittest++\currenttest.cpp
+	"CurrentTest.h"
+	<cstddef>
+
+1429950622 e:\githubcoloseum\unittest++\currenttest.h
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\deferredtestreporter.cpp
+	"Config.h"
+	"DeferredTestReporter.h"
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest++\deferredtestreporter.h
+	"Config.h"
+	"TestReporter.h"
+	"DeferredTestResult.h"
+	<vector>
+
+1429950622 e:\githubcoloseum\unittest++\testreporter.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest++\deferredtestresult.h
+	"Config.h"
+	"HelperMacros.h"
+	<string>
+	<vector>
+
+1429950622 e:\githubcoloseum\unittest++\testdetails.h
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\deferredtestresult.cpp
+	"Config.h"
+	"DeferredTestResult.h"
+	<cstring>
+
+1429950622 source:e:\githubcoloseum\unittest++\memoryoutstream.cpp
+	"MemoryOutStream.h"
+	<cstring>
+	<cstdio>
+
+1431982092 source:e:\githubcoloseum\unittest++\reportassert.cpp
+	"ReportAssert.h"
+	"ReportAssertImpl.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"TestResults.h"
+	"TestDetails.h"
+	"ReportAssert.h"
+	"ReportAssertImpl.h"
+
+1429950622 e:\githubcoloseum\unittest++\reportassert.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest++\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1429950622 source:e:\githubcoloseum\unittest++\test.cpp
+	"Config.h"
+	"Test.h"
+	"TestList.h"
+	"TestResults.h"
+	"AssertException.h"
+	"MemoryOutStream.h"
+	"ExecuteTest.h"
+	"Posix/SignalTranslator.h"
+
+1429950622 e:\githubcoloseum\unittest++\test.h
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest++\testlist.h
+	"HelperMacros.h"
+
+1429950622 e:\githubcoloseum\unittest++\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1429950622 e:\githubcoloseum\unittest++\exceptionmacros.h
+	"Config.h"
+
+1429950622 e:\githubcoloseum\unittest++\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1429950622 source:e:\githubcoloseum\unittest++\testdetails.cpp
+	"TestDetails.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\testlist.cpp
+	"TestList.h"
+	"Test.h"
+	<cassert>
+
+1429950622 source:e:\githubcoloseum\unittest++\testreporter.cpp
+	"TestReporter.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\testreporterstdout.cpp
+	"TestReporterStdout.h"
+	<cstdio>
+	"TestDetails.h"
+
+1429950622 e:\githubcoloseum\unittest++\testreporterstdout.h
+	"TestReporter.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\testresults.cpp
+	"TestResults.h"
+	"TestReporter.h"
+	"TestDetails.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\testrunner.cpp
+	"TestRunner.h"
+	"TestResults.h"
+	"TestReporter.h"
+	"TestReporterStdout.h"
+	"TimeHelpers.h"
+	"MemoryOutStream.h"
+	<cstring>
+
+1429950622 e:\githubcoloseum\unittest++\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1429950622 e:\githubcoloseum\unittest++\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1429950622 e:\githubcoloseum\unittest++\posix\timehelpers.h
+	<sys/time.h>
+
+1429950622 e:\githubcoloseum\unittest++\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\timeconstraint.cpp
+	"TimeConstraint.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"CurrentTest.h"
+
+1429950622 e:\githubcoloseum\unittest++\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+
+1429950622 source:e:\githubcoloseum\unittest++\win32\timehelpers.cpp
+	"TimeHelpers.h"
+	<windows.h>
+
+1429950622 source:e:\githubcoloseum\unittest++\xmltestreporter.cpp
+	"Config.h"
+	"XmlTestReporter.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1429950622 e:\githubcoloseum\unittest++\xmltestreporter.h
+	"Config.h"
+	"DeferredTestReporter.h"
+	<iosfwd>
+

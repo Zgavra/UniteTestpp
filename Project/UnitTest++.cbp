@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UnitTest++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="../Deliv/Debug/libUnitTest++.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="../Deliv/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Wfloat-equal" />
+					<Add option="-Wmissing-declarations" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++98" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="../Deliv/Release/libUnitTest++.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="../Deliv/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Wfloat-equal" />
+					<Add option="-Wmissing-declarations" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++98" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Debug(linux)">
+				<Option platforms="Unix;Mac;" />
+				<Option output="../Deliv/Debug/libUnitTest++.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="../Deliv/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Wfloat-equal" />
+					<Add option="-Wmissing-declarations" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++98" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release(linux)">
+				<Option platforms="Unix;Mac;" />
+				<Option output="../Deliv/Release/libUnitTest++.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="../Deliv/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Wfloat-equal" />
+					<Add option="-Wmissing-declarations" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++98" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;Release;Debug(linux);Release(linux);" />
+		</VirtualTargets>
+		<Unit filename="../AssertException.cpp" />
+		<Unit filename="../AssertException.h" />
+		<Unit filename="../CheckMacros.h" />
+		<Unit filename="../Checks.cpp" />
+		<Unit filename="../Checks.h" />
+		<Unit filename="../Config.h" />
+		<Unit filename="../CurrentTest.cpp" />
+		<Unit filename="../CurrentTest.h" />
+		<Unit filename="../DeferredTestReporter.cpp" />
+		<Unit filename="../DeferredTestReporter.h" />
+		<Unit filename="../DeferredTestResult.cpp" />
+		<Unit filename="../DeferredTestResult.h" />
+		<Unit filename="../ExecuteTest.h" />
+		<Unit filename="../MemoryOutStream.cpp" />
+		<Unit filename="../MemoryOutStream.h" />
+		<Unit filename="../Posix/SignalTranslator.cpp">
+			<Option target="Debug(linux)" />
+			<Option target="Release(linux)" />
+		</Unit>
+		<Unit filename="../Posix/SignalTranslator.h">
+			<Option target="Debug(linux)" />
+			<Option target="Release(linux)" />
+		</Unit>
+		<Unit filename="../Posix/TimeHelpers.cpp">
+			<Option target="Debug(linux)" />
+			<Option target="Release(linux)" />
+		</Unit>
+		<Unit filename="../Posix/TimeHelpers.h">
+			<Option target="Debug(linux)" />
+			<Option target="Release(linux)" />
+		</Unit>
+		<Unit filename="../ReportAssert.cpp" />
+		<Unit filename="../ReportAssert.h" />
+		<Unit filename="../Test.cpp" />
+		<Unit filename="../Test.h" />
+		<Unit filename="../TestDetails.cpp" />
+		<Unit filename="../TestDetails.h" />
+		<Unit filename="../TestList.cpp" />
+		<Unit filename="../TestList.h" />
+		<Unit filename="../TestMacros.h" />
+		<Unit filename="../TestReporter.cpp" />
+		<Unit filename="../TestReporter.h" />
+		<Unit filename="../TestReporterStdout.cpp" />
+		<Unit filename="../TestReporterStdout.h" />
+		<Unit filename="../TestResults.cpp" />
+		<Unit filename="../TestResults.h" />
+		<Unit filename="../TestRunner.cpp" />
+		<Unit filename="../TestRunner.h" />
+		<Unit filename="../TestSuite.h" />
+		<Unit filename="../TimeConstraint.cpp" />
+		<Unit filename="../TimeConstraint.h" />
+		<Unit filename="../TimeHelpers.h" />
+		<Unit filename="../UnitTest++.h" />
+		<Unit filename="../Win32/TimeHelpers.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../Win32/TimeHelpers.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../XmlTestReporter.cpp" />
+		<Unit filename="../XmlTestReporter.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
